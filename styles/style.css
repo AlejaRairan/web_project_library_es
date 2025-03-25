@@ -127,6 +127,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  padding-left: 0px;
+
 }
 .card {
   background-color: #fff;
