@@ -18,7 +18,6 @@
             alt="Logotipo de la Biblioteca Triple Peaks"
             class="nav__logo"
           />
-          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#staff"
@@ -26,7 +25,7 @@
               >
             </li>
             <li>
-              <a class="nav__link">Eventos</a>
+              <a class="nav__link" href="#proximos_eventos"> Eventos</a>
             </li>
             <li>
               <a class="nav__link">Conviértete en miembro</a>
@@ -137,6 +136,93 @@
               </div>
             </li>
           </ul>
+        </section>
+        <section id="proximos_eventos" class="events">
+          <div class="events__content">
+            <h2 class="events__heading">Próximos eventos:</h2>
+            <h3 class="events__title">
+              En honor de Joan Feynman: mujeres en la astrofísica
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_calendar.svg"
+                  alt="Calendar icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">Lunes 12 de enero</p>
+              </div>
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_pin.svg"
+                  alt="Pin icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">
+                  Sala de conferencias y virtual de la biblioteca Triple Peaks
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              En este evento, en el que celebramos el nombre de nuestra
+              biblioteca, nuestra invitada nos llevará a través de un viaje para
+              conocer a algunas de las mujeres investigadoras más importantes en
+              el mundo de la ciencia espacial. Es fácil caer en la falsa idea de
+              que este campo está principalmente dominado por hombres, pero
+              nuestra conferencia busca cambiar esa noción y probar que no ha
+              sido así desde, al menos, el siglo XVII.
+            </p>
+            <a href="#" class="events__more">Más eventos</a>
+          </div>
+          <div class="events__cover">
+            <img
+              src="./images/cafe.png"
+              alt="Ilustración Dentro del café"
+              class="events__image"
+            />
+
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="Fotografía de Joan Feynman"
+                class="person__image person__image_size_l"
+              />
+            </div>
+
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="Fotografía de Margaret Burbidge"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              <p class="person__caption">Annie Jump Cannon</p>
+              <img
+                src="./images/person_cannon.png"
+                alt="Fotografía de Annie Jump Cannon"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_mitchell">
+              <p class="person__caption">Maria Mitchell</p>
+              <img
+                src="./images/person_mitchell.png"
+                alt="Fotografía de Maria Mitchell"
+                class="person__image person__image_size_s"
+              />
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="Fotografía de Jill Tarter"
+                class="person__image person__image_size_m"
+              />
+            </div>
+          </div>
         </section>
       </main>
     </div>
